@@ -5,6 +5,17 @@ html, body {
     width: 100%;
     height: 100%;
 }
+a {
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+.bold-text {
+    font-weight: 900;
+}
+.glyphicon {
+    font-size: 50px;
+}
 
 /* padded sections - add padding top/bottom to separate sections */
 .pad-section {
@@ -47,7 +58,7 @@ html, body {
     }
 }
 
-/* minimize pic - make my pic smaller when window size is small enough */
+/* minimize pic - adjust my pic when window size is small enough */
 @media screen and (max-width: 767px) {
     .me-pic {
         height: 315px;
@@ -130,23 +141,13 @@ html, body {
     line-height: 1.5;
 }
 
-a {
-    -webkit-transition: all .2s ease-in-out;
-       -moz-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out;
-}
-.bold-text {
-    font-weight: 900;
-}
-.glyphicon {
-    font-size: 50px;
-}
+
 
 
 
 /* additional sections */
-#home {
-    background: url('../img/Nature-Mountain-HD-Wallpapers.jpg') no-repeat center center fixed;
+#cover {
+    background: url('../img/mountains.jpg') no-repeat center center fixed;
     display: table;
     height: 100%;
     width: 100%;
