@@ -134,7 +134,7 @@ a {
 
 /* additional sections */
 #home {
-    background: url('http://onehdwallpaper.com/wp-content/uploads/2015/07/Nature-Mountain-HD-Wallpapers.jpg') no-repeat center center fixed;
+    background: url('../img/Nature-Mountain-HD-Wallpapers.jpg') no-repeat center center fixed;
     display: table;
     height: 100%;
     width: 100%;
