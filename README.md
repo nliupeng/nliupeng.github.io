@@ -12,7 +12,7 @@ Open sources used so far:
 
 
 [//]: #  
-   [nliupeng.github.io]: <nliupeng.github.io>
+   [nliupeng.github.io]: <http://nliupeng.github.io/>
    [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
    [Devicon]: <http://devicon.fr/>
    [Google Fonts API]: <https://www.google.com/fonts>
