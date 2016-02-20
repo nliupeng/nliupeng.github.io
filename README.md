@@ -1,4 +1,4 @@
-# nliupeng.github.io
+# [nliupeng.github.io]
 
 Let me wish you a warm welcome to my personal website. 
 
@@ -12,6 +12,7 @@ Open sources used so far:
 
 
 [//]: #  
+   [nliupeng.github.io]: <nliupeng.github.io>
    [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
    [Devicon]: <http://devicon.fr/>
    [Google Fonts API]: <https://www.google.com/fonts>
