@@ -4,9 +4,9 @@ Let me wish you a warm welcome to my personal website.
 
 ### Tools 
 Open sources used so far:
-* [Twitter Bootstrap]
+* [Twitter Bootstrap] - Responsive front-end framework for web development
 * [Devicon] - Set of icons representing dev tools (css) 
-* [Google Fonts API] - Font families: "Roboto" (css)
+* [Google Fonts API] - Font families: "Roboto, Sarpanch, Oswald" (css)
 * [Aeraaperta Nicescroll] - Plugin for better mousewheel scroll (jquery)
 * [Easing Plugin] - Offers multiple easing options (jquery)
 

@@ -13,6 +13,8 @@ a {
 .bold-text {
     font-weight: 900;
 }
+
+/* icons - specify icons size */
 .glyphicon {
     font-size: 50px;
 }
@@ -23,7 +25,8 @@ i {
 
 /* padded sections - add padding top/bottom to separate sections */
 .pad-section {
-    padding: 75px 0;    
+    padding: 75px 0; 
+    margin: 0 0;
 }
 .pad-section img {
     width: 100%;
@@ -74,9 +77,10 @@ i {
         display: block;
         margin: auto;      
     }
+    /*
     .container .col-sm-6 {
         padding: 0 50px;
-    }
+    } */
 }
 
 
@@ -87,7 +91,7 @@ i {
             border-radius: 10px;
     background: #ccc;
     height: 10px;
-    width: 100%;                        /* fix when screen is small */
+    width: 100%;                       
     margin: 10px 0px;
     overflow: hidden;
 }
@@ -140,6 +144,8 @@ i {
 .container {
     font-family: "Roboto", sans-serif;
     color: #555;
+    margin: 0 0;
+    padding: 0 0
 }
 .container h1 {
     font-weight: 900;
@@ -151,7 +157,7 @@ i {
     line-height: 1.3;
     margin: 25px 0;
 }
-.container h3 {
+.container h3 {                            
     font-size: 2em;
     line-height: 1.3;
     margin: 10px 0;
@@ -167,10 +173,8 @@ i {
     font-family: "Roboto", sans-serif;
     color: #fff;
     position: relative;
-    padding-right:20px;
-    padding-left:20px;
-    margin-right:auto;
-    margin-left:auto;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 .container-custom h3 {
     font-size: 2em;
@@ -183,6 +187,76 @@ i {
     font-size: 1.2em;
     line-height: 1.5;
 }
+
+
+
+/* styles for projects section */
+.container-projects {
+    margin: 0 0;
+    padding: 0 0; 
+}
+.col-xs-6.col-sm-3.full-width {
+    padding: 0 0;
+}
+.pj {
+    width: 100%;
+    height: 200px;
+    -webkit-transition: all .3s ease-out;
+       -moz-transition: all .3s ease-out;
+         -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;     
+}
+.pj:hover {
+    background-size: 125% 125%;
+}
+.pj-text {
+    background: rgba(200,200,200,.5);
+    height: 50%; 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.pj-text:hover, .pj-text:focus {
+    visibility: visible;
+}
+
+/* specific styles for individual projects */
+.scene3d { 
+    background: url('../img/mountains.jpg') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.huffman { 
+    background: url('../img/mountains-snow.jpg') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.website { 
+    background: url('../img/mountains-rock.jpg') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.senior { 
+    background: url('../img/beach-rock.jpg') no-repeat center center; 
+    background-size: 100% 100%;
+}
+
+/*
+#hidden-container {
+  background-color: red;
+  display: block;
+  position: fixed;
+  height:100%;
+  width: 100%;
+  top: 20px;
+  border: 20px solid black;
+}
+*/
+
+
+
+
+
+
+
+
 
 
 
@@ -210,9 +284,30 @@ i {
     color: #fff;
 
 }
+
 #skills p {
     line-height: 1.5;
 }
+
+#quote {
+    background: url('../img/beach-rock.jpg') no-repeat center center fixed;
+  /*  display: table; */
+    height: 50%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+#quote-inner-box {   
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    background-color: rgba(256,256,256,.5);
+    padding: 20px;
+    font-family: "Oswald", serif;
+}
+
+
+
 
 #laptop {
         background: url('../img/mountains.jpg') no-repeat center center fixed;
