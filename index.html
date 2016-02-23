@@ -285,27 +285,19 @@
     <!-- section 4 - Projects -->    
     <section id="projects">
         <!-- Check _projects.js for modal window -->
-        <h2>Modal Example</h2>
-
-                <!-- Trigger/Open The Modal -->
-                <button id="myBtn">Open Modal</button>
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                  <!-- Modal content -->
-                  <div class="modal-content">
-                    <span class="close">×</span>
-                    <p>Some text in the Modal..</p>
-                  </div>
-
-                </div>
+        <!-- modal where project info appears -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">×</span>
+                <p>Some text in the Modal..</p>
+            </div>
+        </div>
                 
                    
         
 
        
-        <div class="pad-section">
+       <!-- <div class="pad-section"> -->
             <div class="container">
                 <h1 class="text-center">projects</h1>                
                 <h2 class="text-center">lorem these are some of my projects</h2>                   
@@ -313,23 +305,25 @@
         </div>   
         <!-- Check projects.js for pop-up window -->
         <div class="container-projects">
-            <div class="row" style="margin: 0 0">
-                <div class="col-xs-6 col-sm-3 full-width">
-                    <a href="#myBtn"><div id="p1" class="pj scene3d">
-                        <div class="pj-text">3D Scene with OpenGL</div>
+           <!-- <div class="container">-->
+                <div class="row" style="margin: 0 0">
+                    <div class="col-xs-6 col-sm-3 full-width">
+                        <a id="myBtn"><div id="p1" class="pj scene3d">
+                            <div class="pj-text">3D Scene with OpenGL</div>
                         </div></a>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 full-width">
+                        <div id="p1" class="pj huffman"></div>
+                    </div>                
+                    <div class="col-xs-6 col-sm-3 full-width">
+                        <div id="p1" class="pj website"></div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 full-width">
+                        <div id="p1" class="pj senior"></div>
+                    </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 full-width">
-                    <div id="p1" class="pj huffman"></div>
-                </div>                
-                <div class="col-xs-6 col-sm-3 full-width">
-                    <div id="p1" class="pj website"></div>
-                </div>
-                <div class="col-xs-6 col-sm-3 full-width">
-                    <div id="p1" class="pj senior"></div>
-                </div>
-            </div>
-        </div>
+           <!-- </div>-->
+      <!--  </div> -->
     </section>
     <!-- /section 4 -->
     
@@ -370,14 +364,15 @@
           }
         );
     </script>
-    <!-- Scrolling Nav -->
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Scrolling Navbar -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
 
-    
-     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    
+    <!-- Custom JavaScript -->
     <script src="../nliupeng.github.io/js/_projects.js"></script>
 
         
