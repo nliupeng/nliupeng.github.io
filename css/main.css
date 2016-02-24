@@ -8,6 +8,7 @@ html, body {
 a {
     -webkit-transition: all .2s ease-in-out;
        -moz-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
 }
 .bold-text {
@@ -43,6 +44,9 @@ i {
 .navbar-custom a {
     color: #fff;
 }
+.navbar-custom a:hover {
+    color: #064e7a;
+}
 .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
     background-color: transparent;
 }
@@ -55,11 +59,12 @@ i {
         background-color: transparent; 
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+             -o-transition: background .5s ease-in-out, padding .5s ease-in-out;
                 transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
-    .navbar-custom .navbar-toggle {
+  /*  .navbar-custom .navbar-toggle {
         background-color: transparent; 
-    }
+    }*/
     .navbar-custom.top-nav-collapse {
         padding: 0;
         background-color: #333;
@@ -164,6 +169,9 @@ i {
     margin: 10px 0;
     font-weight: 600;
     text-transform: uppercase;
+}
+.container a {
+    text-decoration: none;
 }
 .container p {
     font-size: 1.2em;
