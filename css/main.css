@@ -24,6 +24,8 @@ i {
 }
 
 
+
+
 /* padded sections - add padding top/bottom to separate sections */
 .pad-section {
     padding: 75px 0; 
@@ -32,6 +34,8 @@ i {
 .pad-section img {
     width: 100%;
 }
+
+
 
 
 /* navigation styles - include smooth transition */
@@ -72,6 +76,8 @@ i {
 }
 
 
+
+
 /* minimize pic - adjust my pic when window size is small enough */
 @media screen and (max-width: 767px) {
     .me-pic {
@@ -82,11 +88,9 @@ i {
         display: block;
         margin: auto;      
     }
-    /*
-    .container .col-sm-6 {
-        padding: 0 50px;
-    } */
 }
+
+
 
 
 /* percentage bars - measure skills */
@@ -118,7 +122,9 @@ i {
 }
 
 
-/* center-text - center text from cover section */
+
+
+/* center-text - center text horizontally/vertically */
 .center-text {
     display: table-cell;
     text-align: center;
@@ -129,7 +135,7 @@ i {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     -webkit-text-shadow: 0 0 6px #000;
        -moz-text-shadow: 0 0 6px #000;
@@ -139,7 +145,8 @@ i {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    margin: 20px 0;
+    margin: 20px;
+    padding: 0;
 }
 
 
@@ -149,8 +156,8 @@ i {
 .container {
     font-family: "Roboto", sans-serif;
     color: #555;
-    width: 100%;
-    margin: 0 0;
+    width: 90%;
+    margin: 0 auto;
     padding: 0 20px;
 }
 .container h1 {
@@ -198,6 +205,7 @@ i {
 
 
 
+
 /* styles for projects section */
 .container-projects, .col-xs-6.col-sm-3.full-width {
     margin: 0 0;
@@ -230,7 +238,8 @@ i {
 }
 .pj:hover .pj-text {
     background-color: white; 
-    opacity: .8;
+    /*border: 2px solid #333; */
+    opacity: 1;
 }
 /* modal - display project details */
 .modal {
@@ -269,33 +278,31 @@ i {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+
 /* specific styles for individual projects */
+.website { 
+    background: url('../img/pj_imgs/neopets.png') no-repeat center center; 
+    background-size: 100% 100%;
+}
 .scene3d { 
-    background: url('../img/mountains.jpg') no-repeat center center; 
+    background: url('../img/pj_imgs/scene3d-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
 .huffman { 
     background: url('../img/mountains-snow.jpg') no-repeat center center; 
     background-size: 100% 100%;
 }
-.website { 
-    background: url('../img/mountains-rock.jpg') no-repeat center center; 
+.alien { 
+    background: url('../img/pj_imgs/alien-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
 .senior { 
     background: url('../img/beach-rock.jpg') no-repeat center center; 
     background-size: 100% 100%;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -328,7 +335,7 @@ i {
     line-height: 1.5;
 }
 
-#quote {
+.quote {
     background: url('../img/beach-rock.jpg') no-repeat center center fixed;
   /*  display: table; */
     height: 50%;
@@ -336,7 +343,7 @@ i {
     position: relative;
     background-size: cover;
 }
-#quote-inner-box {   
+.quote-inner-box {   
     margin-top: 20px;
     margin-left: 20px;
     position: absolute;
@@ -345,13 +352,22 @@ i {
     font-family: "Oswald", serif;
 }
 
+#footer {
+    background: url('../img/night.jpg') no-repeat center center fixed;
+    display: table;
+    height: 80%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
 
 
 
+/*
 #laptop {
         background: url('../img/mountains.jpg') no-repeat center center fixed;
 }
-
+*/
 
 
 
