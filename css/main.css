@@ -25,7 +25,6 @@ i {
 
 
 
-
 /* padded sections - add padding top/bottom to separate sections */
 .pad-section {
     padding: 75px 0; 
@@ -355,7 +354,7 @@ i {
 #footer {
     background: url('../img/night.jpg') no-repeat center center fixed;
     display: table;
-    height: 80%;
+    height: 40%;
     width: 100%;
     position: relative;
     background-size: cover;
