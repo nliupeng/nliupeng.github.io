@@ -277,8 +277,26 @@ i {
     text-decoration: none;
     cursor: pointer;
 }
-
-
+/* modal content details */
+#modal-contentDetails {
+    font-family: "Roboto", serif;
+    padding: 10px;
+    margin: 0;
+}
+#modal-contentDetails h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+}
+#modal-contentDetails h2 {
+    font-weight: 900;
+    color: #777;
+    font-size: 1.5em;
+}
+#modal-contentDetails img {
+    width: 100%;
+    margin-top: 20px;
+}
 
 
 /* specific styles for individual projects */
