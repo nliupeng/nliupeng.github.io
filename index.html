@@ -297,25 +297,25 @@
             <div class="row" style="margin: 0 0">
                                  
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a class="myBtn" id="wwebsite"><div id="p1" class="pj website">
+                    <a id="btn-website"><div id="p1" class="pj website">
                         <div class="pj-text">Neopets Website</div>
                     </div></a>
                 </div>
                    
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a class="myBtn" id="scene3d"><div id="p2" class="pj scene3d">
+                    <a id="btn-scene3d"><div id="p2" class="pj scene3d">
                         <div class="pj-text">3D Scene with OpenGL</div>
                     </div></a>
                 </div>
                     
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a class="myBtn"><div id="p3" class="pj huffman">
+                    <a id="btn-huffman"><div id="p3" class="pj huffman">
                         <div class="pj-text">Huffman Code</div>
                     </div></a>
                 </div>  
                     
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a class="myBtn"><div id="p4" class="pj alien">
+                    <a id="btn-alien"><div id="p4" class="pj alien">
                         <div class="pj-text">Alien Console Game</div>
                     </div></a>
                 </div>
@@ -332,49 +332,17 @@
     <div id="footer">
         <div class="row center-text">
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-earphone"></span><h1>teest</h1> 
+                
             </div>
             <div class="col-sm-4">
-                <h1>dsadadda</h1>
+               
             </div>
             <div class="col-sm-4">
-                <h1>dsadad</h1>
+               
             </div>            
-        </div>  
-          
-          
-      <!--     <div class="center-text">
-            <h1>Welcome. It's me, Nelly</h1> 
-            <h3>Insert an inspirational quote here</h3>  
-            <a href="#about" class="page-scroll"><img src="img/bstro-arrow.gif"></a>
-        </div>
-           <!--
-            <div class="row text-center">
-                <div class="col-sm-3" style="margin: 50px 0;">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <h3>Programmer</h3>
-                    <p>Love coding and problem solving</p>
-                </div>
-                <div class="col-sm-3" style="margin: 50px 0;">
-                    <span class="glyphicon glyphicon-blackboard"></span>
-                    <h3>Designer</h3>
-                    <p>Designed this website from scratch!</p>
-                </div>
-                <div class="col-sm-3" style="margin: 50px 0;">
-                    <span class="glyphicon glyphicon-globe"></span>
-                    <h3>Translator</h3>
-                    <p>Proficient in English and Spanish. Intermediate in Cantonese and Mandarin</p>
-                </div>
-                <div class="col-sm-3" style="margin: 50px 0;">
-                    <span class="glyphicon glyphicon-headphones"></span>
-                    <h3>Music Lover</h3>
-                    <p>Acapella. Mellow melodies. Soft pop and rock!</p>
-                </div>
-            </div> -->
-  
+        </div>    
     </div>
-    <!-- /section quote -->
+    <!-- /section footer -->
    
    
    
@@ -427,26 +395,26 @@
         var content = document.getElementById('modal-contentDetails');
         var span = document.getElementsByClassName("close")[0];
         var button;
-
-        // for each button, open modal
-        for(var i=0; i<btn.length; i++) {
-            button = btn[i];
-            console.log(typeof button.id);
-            button.onclick = function() {
-                modal.style.display = "block";
-            }
-            console.log(document.getElementById('wwebsite'));
-            console.log(button);
-            if(document.getElementById('wwebsite') == button) {
-                    content.innerHTML = "<em>lrem lorem</em>";
-                }
-                else if(button.id === "scene3d") {
-                    content.innerHTML = "<em>TESETSESES</em>";
-                }
-                else {
-                    content.innerHTML = "HELLO";
-                }
-           
+        
+        button = document.getElementById('btn-website');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "Work in progress. Coming soon";
+        }
+        button = document.getElementById('btn-scene3d');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "Work in progress. Coming soon";
+        }
+        button = document.getElementById('btn-huffman');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "Work in progress. Coming soon";
+        }
+        button = document.getElementById('btn-alien');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "Work in progress. Coming soon";
         }
 
         // <span> (x) is clicked, close modal
