@@ -277,11 +277,14 @@ i {
     text-decoration: none;
     cursor: pointer;
 }
+
 /* modal content details */
 #modal-contentDetails {
     font-family: "Roboto", serif;
-    padding: 10px;
-    margin: 0;
+    color: #555;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
 }
 #modal-contentDetails h1 {
     text-transform: uppercase;
@@ -309,7 +312,7 @@ i {
     background-size: 100% 100%;
 }
 .huffman { 
-    background: url('../img/mountains-snow.jpg') no-repeat center center; 
+    background: url('../img/pj_imgs/huffman-main.png') no-repeat center center; 
     background-size: 100% 100%;
 }
 .alien { 

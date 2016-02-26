@@ -311,7 +311,7 @@
                     
                 <div class="col-xs-6 col-sm-3 full-width">
                     <a id="btn-huffman"><div id="p3" class="pj huffman">
-                        <div class="pj-text">Huffman Code</div>
+                        <div class="pj-text">Huffman Compression</div>
                     </div></a>
                 </div>  
                     
@@ -359,9 +359,19 @@
    
    
    
+   <!--
    
-   
-   
+   <h1>My First Website</h1> \
+                <h2>A passion ignited at eleven-years old...</h2> \
+                <p><span class='bold-text'>Fall 2006</span>. I once was told that I could follow my dreams if I had the motivation and determination to do so. But as I grew up, I realized that it takes more than just those skills to go far. There needs to be a catalyst that triggers that motivation.</p> \
+                <p>I used to play online often when I was a kid. Every day, after coming home from school, one of the first tasks I’d do was to turn on my computer and browse Neopets.com, a virtual community where you can interact with other fellow users as you take care of virtual pets. \
+                Back then, it felt like a second home, and little did I know that I was gaining valuable life skills from that online experience. Through that site, I learned how to buy frugally and sell according to economic demands. To be respectful towards other users. \
+                That pets require great attention, care, and time. About the stock market and how it works… And lastly, I was introduced for the first time to the world of HTML, which eventually led to CSS and the concept of web development.</p> \
+                <p>Ever since then, I’ve been fascinated by technology and its growing impact on people’s lives. I remember how excited I would be as a kid to open that HTML tutorial and witness my work come to life. <em>Add code here. Save. Refresh. Tweak some code here and there. Save. Refresh… Voilà!</em></p> \
+                <p>The opportunity given to me to create something entirely mine, plus the resources available to pursue those dreams, encouraged me to pursue a career in technology. That’s why I have chosen Computer Science, and further down the road decided to add Computer Information Systems to my career path as well. \
+                I want to use my skills to serve those around me, and I passionately believe in inspiring others to learn.</p> \
+                <p>I am looking forward to know more about the potential that technology can have on people’s lives and hope that this path can help me act as a trigger to young individuals who would like to pursue big dreams, like someone did for me in the past. </p>\
+      -->          
    
    
    
@@ -410,30 +420,49 @@
         button = document.getElementById('btn-website');
         button.onclick = function() {
             modal.style.display = "block";
-            content.innerHTML = "<h1>First Website: Neopets.com</h1>    \
-                <p>Work in progress. Check back soon!</p>";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>My First Website</h1> \
+                    <h2>A website targeted to Neopets users to provide services related to that site.</h2> \
+                    <p><span class='bold-text'>Fall 2006</span>. I was living in El Salvador when I first wrote the code for this website as an eleven-year-old girl. My interest arose after being exposed to an HTML tutorial provided by the same site. The concept of the site is simple: to provide useful links, guides, relevant information and help to Neopets users who are looking for ways to earn Neopoints (the currency used in the site community) in a faster and convenient way. </p> \
+                    <p>The site improved significantly since its inception. When it was first advertised to other Neopets users, it was a plain-looking site with data organized in tables (hey! HTML5  wasn't fully developed yet, so much of the features that are offered now were not even widely used back then.) Eventually, I learned CSS and transformed the site to a more attractive layout. The site would be maintained and updated for a couple more years, but would reach hiatus as I grew older. <p> \
+                    <p>As a more experienced programmer now, it delights me to look back at the quality of code I wrote back then and the improvement I have gained since then. One day I will go back and optimize the code of this site. Or maybe not ;).</p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/neopets-main.png'> \
+                </div></div>"; 
         }
         button = document.getElementById('btn-scene3d');
         button.onclick = function() {
             modal.style.display = "block";
-            content.innerHTML = "<div class='container'><div class='row'><div class='col-sm-7'> \
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
                     <h1>3D Scene with OpenGL</h1> \
                     <h2>A project involving the use of OpenGL, a library provided by Java, to create an original scene in 3D.</h2> \
-                    <p>OpenGL is a widely-used open graphics standard in the world. Its extensive cross-platform API allows for efficient rendering of 2D and 3D graphics. Over the course of 10 weeks, two other individuals and I worked together in the research, design, and development of this project using this library. At the end of the course, we gained a better understanding of different aspects of graphics like texture mapping, lighting, visible surface detection, and surface rendering. </p> \
+                    <p><span class='bold-text'>Fall 2015</span>. OpenGL is a widely-used open graphics standard in the world. Its extensive cross-platform API allows for efficient rendering of 2D and 3D graphics. Over the course of 10 weeks, two other individuals and I worked together in the research, design, and development of this project using this library. At the end of the course, we gained a better understanding of different aspects of graphics like texture mapping, lighting, visible surface detection, and surface rendering. </p> \
                 </div><div class='col-sm-5'> \
                     <img src='img/pj_imgs/scene3d-main.png'> \
-                </div></div></div>";
+                </div></div>";
         }
         button = document.getElementById('btn-huffman');
         button.onclick = function() {
             modal.style.display = "block";
-            content.innerHTML = "Work in progress. Coming soon";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Huffman Compression</h1> \
+                    <h2>A text file compression program, implemented using priority queues.</h2> \
+                    <p><span class='bold-text'>Winter 2015</span>. Imagine a friend approaches you and decides to store a large number of text files but is unable to fit them on his or her flash drive. To tackle this situation, an implementation of a file compression would come in handy. In this project I implemented Huffman encoding using a priority queue to compress text files while preserving the original data.</p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/huffman-main.png'> \
+                </div></div>";
         }
         button = document.getElementById('btn-alien');
         button.onclick = function() {
             modal.style.display = "block";
-            content.innerHTML = "Work in progress. Coming soon";
-        }
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Alien Console game</h1> \
+                    <h2>A simple project for my introductory programming and problem solving class.</h2> \
+                    <p><span class='bold-text'>Spring 2014</span>. This was one of my first projects I was assigned during my second quarter of taking programming classes. The task was to rewrite a video game design concept by J. Hacker using fundamental concepts such as overloading and overriding, abstract methods and classes, and finally object-oriented design.</p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/alien-main.png'> \
+                </div></div>";
+         }
 
         // <span> (x) is clicked, close modal
         span.onclick = function() {
