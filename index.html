@@ -295,33 +295,58 @@
                 <p class=text-center>Click on the image for more details.</p>                
             </div>
 
-            <div class="row" style="margin: 0 0">
-                                 
+            <div class="row" style="margin: 0 0">                                 
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a id="btn-website"><div id="p1" class="pj website">
+                    <a id="btn-website"><div class="pj website">
                         <div class="pj-text">Neopets Website</div>
                     </div></a>
                 </div>
                    
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a id="btn-scene3d"><div id="p2" class="pj scene3d">
+                    <a id="btn-scene3d"><div class="pj scene3d">
                         <div class="pj-text">3D Scene with OpenGL</div>
                     </div></a>
                 </div>
                     
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a id="btn-huffman"><div id="p3" class="pj huffman">
+                    <a id="btn-huffman"><div class="pj huffman">
                         <div class="pj-text">Huffman Compression</div>
                     </div></a>
                 </div>  
                     
                 <div class="col-xs-6 col-sm-3 full-width">
-                    <a id="btn-alien"><div id="p4" class="pj alien">
+                    <a id="btn-alien"><div class="pj alien">
                         <div class="pj-text">Alien Console Game</div>
                     </div></a>
-                </div>
-                
+                </div>                
             </div> <!-- /row -->
+            
+            <div class="row" style="margin: 0 0">                                 
+                <div class="col-xs-6 col-sm-3 full-width">
+                    <a id="btn-website2"><div class="pj website2">
+                        <div class="pj-text">Personal Website</div>
+                    </div></a>
+                </div>
+                   
+                <div class="col-xs-6 col-sm-3 full-width">
+                    <a id="btn-crash"><div class="pj crash">
+                        <div class="pj-text">Car Crash Alert</div>
+                    </div></a>
+                </div>
+                    
+                <div class="col-xs-6 col-sm-3 full-width">
+                    <a id="btn-speedtest"><div class="pj speedtest">
+                        <div class="pj-text">Speed Test</div>
+                    </div></a>
+                </div>  
+                    
+                <div class="col-xs-6 col-sm-3 full-width">
+                    <a id="btn-senior"><div class="pj senior">
+                        <div class="pj-text">Senior Project</div>
+                    </div></a>
+                </div>                
+            </div> <!-- /row -->
+            
         </div> 
     </section>
     <!-- /section 4 -->
@@ -334,7 +359,7 @@
         <div class="container-custom">
             <div class="row text-center">
                 <div class="col-sm-4" style="margin: 50px 0;">
-                    <a href="#page-top"><i class="fa fa-chevron-up fa-3x"></i></a>
+                    <a class="page-scroll" href="#page-top"><i class="fa fa-chevron-up fa-3x"></i></a>
                     <h3>Nelly Liu Peng</h3>
                     <p>"I can do all things through Him who strengthens me." -Philippians 4:13</p>
                 </div>
@@ -344,10 +369,10 @@
                     <p>"The journey of a thousand miles begins with a single step." -Lao Tzu</p>
                 </div>
                 <div class="col-sm-4" style="margin: 50px 0;">
-                    <a href="http://www.linkedin.com/in/nliupeng"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                    <a href="http://www.github.com/nliupeng"><i class="fa fa-github fa-3x"></i></a>
-                    <a href="mailto:nliupeng@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
-                    <a href="https://drive.google.com/file/d/0B8R4zpEmOwP-UF9yNVlTUzF0c3c/view?usp=sharing"><i class="fa fa-file-text-o fa-3x"></i></a>
+                    <a target="_blank" href="http://www.linkedin.com/in/nliupeng"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                    <a target="_blank" href="http://www.github.com/nliupeng"><i class="fa fa-github fa-3x"></i></a>
+                    <a target="_blank" href="mailto:nliupeng@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+                    <a target="_blank" href="https://drive.google.com/file/d/0B8R4zpEmOwP-UF9yNVlTUzF0c3c/view?usp=sharing"><i class="fa fa-file-text-o fa-3x"></i></a>
                     <h3>Contact Me</h3>
                     <p>"The most important thing in communication is to hear what isn't being said." -Peter Drucker</p>
                 </div>
@@ -462,7 +487,55 @@
                 </div><div class='col-sm-5'> \
                     <img src='img/pj_imgs/alien-main.png'> \
                 </div></div>";
-         }
+        }
+        button = document.getElementById('btn-website2');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Personal Website  <a target='_blank' href='https://github.com/nliupeng/nliupeng.github.io'><i class='fa fa-play-circle'></i></a></h1> \
+                    <h2>My personal project</h2> \
+                    <p><span class='bold-text'>Winter 2016</span>. Once again, let me wish you a warm welcome to my personal website. From its inception and design to its development and general framework, this website has been a learning experience where I had the chance to use my previous knowledge on some front-end programming languages, improve on them, and learn new as well as more back-end programming languages on my own. </p> \
+                    <p>Working on this project has been a valuable and rewarding hands-on experience. I got exposed to open sources and new technologies and learned how to implement those resources to better fit my needs. This site is currently in progress, and I am looking forward to keep on learning and improve upon it.<p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/personalweb-main.jpg'> \
+                </div></div>";
+        }
+        button = document.getElementById('btn-crash');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Car Crash Alert  <a target='_blank' href='https://github.com/nliupeng/Car-Crash'><i class='fa fa-play-circle'></i></a></h1> \
+                    <h2>Simulation of a car crash alert program using memory-mapped IO.</h2> \
+                    <p><span class='bold-text'>Winter 2015</span>. This is a project for my Computer Organization and Assembly Programming class. I was required to write a program that simulated a car crash alert system in assembly language. </p> \
+                    <p>The purpose of the project was to familiarize onself with the MIPS assembly language, the concept of memory-mapped IO, and the polling method, all using SPIM simulator.\
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/crash-main.jpg'> \
+                </div></div>";
+        }
+        button = document.getElementById('btn-speedtest');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Internet Speed Test  <a target='_blank' href='https://github.com/c-nguyen/SpeedTest'><i class='fa fa-play-circle'></i></a></h1> \
+                    <h2><This project is currently in progress></h2> \
+                    <p><span class='bold-text'>Winter 2016</span>. This is a group project written in Python that will measure Internet speed times by calculating the time it takes for files to be uploaded to and downloaded from a server. As a team of three people, we are getting familiarized with Dropbox SDK and its functionalities to carry out our tasks. The program will also be presented using Graphical User Interfaces. </p> \
+                    <p>Work in progress. Check back soon!</p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/speedtest-main.png'> \
+                </div></div>";
+        }
+        button = document.getElementById('btn-senior');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Road Map  <a target='_blank' href='https://github.com/gonzalez2/AwesomeWebsite'><i class='fa fa-play-circle'></i></a></h1> \
+                    <h2><This project is currently in progress></h2> \
+                    <p><span class='bold-text'>Winter 2016 - Fall 2016</span>. An independent project made by two students with the goal of serving students on campus and help them better select their classes each quarter/semester. In a little over a month, our goal is to make this happen. Currently working on an efficient algorithm for accurate suggestion results. </p> \
+                    <p>Work in progress. Check back soon!</p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/senior-main.png'> \
+                </div></div>";
+        }
 
         // <span> (x) is clicked, close modal
         span.onclick = function() {

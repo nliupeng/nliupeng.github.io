@@ -319,8 +319,20 @@ i {
     background: url('../img/pj_imgs/alien-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
+.website2 {
+    background: url('../img/pj_imgs/personalweb-min.png') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.crash {
+    background: url('../img/pj_imgs/crash-main.jpg') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.speedtest {
+    background: url('../img/pj_imgs/comingsoon-min.png') no-repeat center center; 
+    background-size: 100% 100%;
+}
 .senior { 
-    background: url('../img/beach-rock.jpg') no-repeat center center; 
+    background: url('../img/pj_imgs/comingsoon-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
 
