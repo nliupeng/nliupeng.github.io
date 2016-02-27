@@ -27,7 +27,11 @@ i {
 
 /* padded sections - add padding top/bottom to separate sections */
 .pad-section {
-    padding: 75px 0; 
+    padding: 50px 0; 
+    margin: 0 0;
+}
+.pad-section-top-only {
+    padding: 20px 0 0 0; 
     margin: 0 0;
 }
 .pad-section img {
@@ -65,9 +69,6 @@ i {
              -o-transition: background .5s ease-in-out, padding .5s ease-in-out;
                 transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
-  /*  .navbar-custom .navbar-toggle {
-        background-color: transparent; 
-    }*/
     .navbar-custom.top-nav-collapse {
         padding: 0;
         background-color: #333;
@@ -360,15 +361,7 @@ i {
     background-size: cover;
 }
 
-#about-cont {
-    background-color: #555;
-    display: table;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-}
-
-#about-cont2 {
+#education {
     background-color: #555;
     display: table;
     width: 100%;
@@ -378,6 +371,14 @@ i {
 
 #skills p {
     line-height: 1.5;
+}
+
+#additional {
+    background-color: #555;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
 }
 
 .quote {
@@ -408,17 +409,8 @@ i {
 
 
 
-/*
-#laptop {
-        background: url('../img/mountains.jpg') no-repeat center center fixed;
-}
-*/
 
-
-
-
-
-/* Initial loading screen, shown before website loads completely */
+/* Initial loading screen, shown before website loads completely 
 .loading {
 	background: url('../img/loading.gif') no-repeat center center;
 }
@@ -439,7 +431,7 @@ video#bgvid {
     background: url(polina.jpg) no-repeat;
     background-size: cover; 
 }
-
+*/
 
 
 
