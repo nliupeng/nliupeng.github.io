@@ -236,7 +236,7 @@ i {
 .pj-text {
     opacity: 0;
     font-weight: 700;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     padding: 5px;
     position: absolute;
@@ -291,7 +291,7 @@ i {
 
 /* modal content details */
 #modal-contentDetails {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
     color: #555;
     width: 100%;
     margin: 0 auto;
@@ -381,9 +381,32 @@ i {
     background-size: cover;
 }
 
-.quote {
+#contact {
+    background: url('../img/city.jpg') no-repeat center center fixed;
+    display: table;
+    height: 90%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+q {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+cite {
+    font-size: 1.2em;
+}
+.bigquote {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+/*.quote {
     background: url('../img/beach-rock.jpg') no-repeat center center fixed;
-  /*  display: table; */
     height: 50%;
     width: 100%;
     position: relative;
@@ -396,17 +419,7 @@ i {
     background-color: rgba(256,256,256,.5);
     padding: 20px;
     font-family: "Oswald", serif;
-}
-
-#footer {
-    background: url('../img/city.jpg') no-repeat center center fixed;
-    display: table;
-    height: 40%;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-}
-
+}*/
 
 
 
