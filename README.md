@@ -7,7 +7,7 @@ Open sources used so far:
 * [Twitter Bootstrap] - Responsive front-end framework for web development
 * [Devicon] - Set of icons representing dev tools (css) 
 * [Font Awesome] - Iconic font and CSS toolkit (css)
-* [Google Fonts API] - Font families: "Roboto, Sarpanch, Oswald" (css)
+* [Google Fonts API] - Font families: "Roboto, Sarpanch, Montserrat" (css)
 * [Aeraaperta Nicescroll] - Plugin for better mousewheel scroll (jquery)
 * [Easing Plugin] - Offers multiple easing options (jquery)
 
