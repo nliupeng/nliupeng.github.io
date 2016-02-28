@@ -405,6 +405,35 @@ cite {
 }
 
 
+/*
+.slide-in {
+    position: absolute;
+    margin-left: 100%;
+}
+
+.left-right {
+    overflow:hidden;
+    height:200px;
+    width:200px;
+    position:relative;
+    background-color:#333;
+}
+.slider {
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:0;
+    right:-200px;
+    background-color:#000;
+    color:#fff;
+}*/
+
+
+
+
+
+
+
 
 /*.quote {
     background: url('../img/beach-rock.jpg') no-repeat center center fixed;
