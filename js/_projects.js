@@ -1,4 +1,4 @@
-$(document).ready(function() {        
+      
         var modal = document.getElementById('myModal');
         var content = document.getElementById('modal-contentDetails');
         var span = document.getElementsByClassName("close")[0];
@@ -122,4 +122,3 @@ $(document).ready(function() {
                 modal.style.display = "none";
             }
         }
-});
