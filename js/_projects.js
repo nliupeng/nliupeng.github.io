@@ -1,6 +1,5 @@
-<!-- hiding script from old browsers
-
-    var modal = document.getElementById('myModal');
+$(document).ready(function() {        
+        var modal = document.getElementById('myModal');
         var content = document.getElementById('modal-contentDetails');
         var span = document.getElementsByClassName("close")[0];
         var button;
@@ -12,7 +11,7 @@
                     <h1>My First Website  <a target='_blank' href='http://www.neopets.com/~Poogle10000000000000'><i class='fa fa-play-circle'></i></a></h1> \
                     <h2>A website targeted to Neopets users to provide services related to that site.</h2> \
                     <p><span class='bold-text'>Fall 2006</span>. I was living in El Salvador when I first wrote the code for this website as an eleven-year-old girl. My interest arose after being exposed to an HTML tutorial provided by the same site. The concept of the site is simple: to provide useful links, guides, relevant information and help to Neopets users who are looking for ways to earn Neopoints (the currency used in the site community) in a faster and convenient way. </p> \
-                    <p>The site improved significantly since its inception. When it was first advertised to other Neopets users, it was a plain-looking site with data organized in tables (hey! HTML5  wasn't fully developed yet, so much of the features that are offered now were not even widely used back then.) Eventually, I learned CSS and transformed the site to a more attractive layout. The site would be maintained and updated for a couple more years, but would reach hiatus as I grew older. <p> \
+                    <p>The site improved significantly since its inception. When it was first advertised to other Neopets users, it was a plain-looking site with data organized in tables (hey! HTML5  wasn't fully developed yet, so much of the features that are offered now were not even widely used back then.) Eventually, I learned CSS and GIMP and transformed the site to a more attractive layout. The site would be maintained and updated for a couple more years, but would reach hiatus as I grew older. <p> \
                     <p>As a more experienced programmer now, it delights me to look back at the quality of code I wrote back then and the improvement I have gained since then. One day I will go back and optimize the code of this site. Or maybe not ;).</p> \
                 </div><div class='col-sm-5'> \
                     <img src='img/pj_imgs/neopets-main.png'> \
@@ -70,7 +69,7 @@
                     <h1>Car Crash Alert  <a target='_blank' href='https://github.com/nliupeng/Car-Crash'><i class='fa fa-play-circle'></i></a></h1> \
                     <h2>Simulation of a car crash alert program using memory-mapped IO.</h2> \
                     <p><span class='bold-text'>Winter 2015</span>. This is a project for my Computer Organization and Assembly Programming class. I was required to write a program that simulated a car crash alert system in assembly language. </p> \
-                    <p>The purpose of the project was to familiarize onself with the MIPS assembly language, the concept of memory-mapped IO, and the polling method, all using SPIM simulator.\
+                    <p>The purpose of the project was to familiarize onself with the MIPS assembly language, the concept of memory-mapped IO, and the polling method, all using QTSPIM simulator.\
                 </div><div class='col-sm-5'> \
                     <img src='img/pj_imgs/crash-main.jpg'> \
                 </div></div>";
@@ -85,6 +84,18 @@
                     <p>Work in progress. Check back soon!</p> \
                 </div><div class='col-sm-5'> \
                     <img src='img/pj_imgs/speedtest-main.png'> \
+                </div></div>";
+        }
+        button = document.getElementById('btn-mips');
+        button.onclick = function() {
+            modal.style.display = "block";
+            content.innerHTML = "<div class='row'><div class='col-sm-7'> \
+                    <h1>Procedural Functions  <a target='_blank' href='https://github.com/nliupeng/Procedural-functions'><i class='fa fa-play-circle'></i></a></h1> \
+                    <h2>A program written in assembly language and focusing on procedural programming</h2> \
+                    <p><span class='bold-text'>Winter 2015</span>. This is a small program for my Computer Organization and Assembly Programming class. A menu prompts the user to choose among five options, including: adding two numbers; multiplying four numbers; reading a string in memory, computing and printing the frequency of each character and then printing the reverse string; writing a recursive procedure printing the Fibonacci sequence up to the inputted number; and lastly, exiting the program with the proper syscall code. </p> \
+                    <p>Program was written entirely in assembly language and using QTSPIM as the interpreter.</p> \
+                </div><div class='col-sm-5'> \
+                    <img src='img/pj_imgs/qtspim-main.png'> \
                 </div></div>";
         }
         button = document.getElementById('btn-senior');
@@ -111,5 +122,4 @@
                 modal.style.display = "none";
             }
         }
-
-// end hiding script from old browsers -->
+});
