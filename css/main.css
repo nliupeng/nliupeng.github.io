@@ -14,6 +14,9 @@ a {
 .bold-text {
     font-weight: 900;
 }
+.italic {
+    font-style: italic;
+}
 
 /* icons - specify icons size */
 .glyphicon {
@@ -323,12 +326,12 @@ i {
     background: url('../img/pj_imgs/scene3d-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
-.huffman { 
-    background: url('../img/pj_imgs/huffman-main.png') no-repeat center center; 
+.market { 
+    background: url('../img/pj_imgs/market-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
-.alien { 
-    background: url('../img/pj_imgs/alien-min.png') no-repeat center center; 
+.huffman { 
+    background: url('../img/pj_imgs/huffman-main.png') no-repeat center center; 
     background-size: 100% 100%;
 }
 .website2 {
@@ -349,6 +352,10 @@ i {
 }
 .senior { 
     background: url('../img/pj_imgs/comingsoon-min.png') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.alien { 
+    background: url('../img/pj_imgs/alien-min.png') no-repeat center center; 
     background-size: 100% 100%;
 }
 
